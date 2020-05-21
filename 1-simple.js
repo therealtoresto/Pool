@@ -8,7 +8,7 @@ const pool = item => {
         console.log('Recycle item, count =', pool.items.length);
         return;
     }
-    const res = pool.items.pop() || new Array(1000).fill(0);
+    const res = pool.items.pop();
 
     console.log('Get from pool, count =', pool.items.length);
     return res;

@@ -16,19 +16,6 @@ const pool = item => {
 
 // Usage
 
-const a1 = pool();
-const b1 = a1.map((x, i) => i).reduce((x, y) => x + y);
-console.log(b1);
+for (let i = 0; i < 15; i++) {
 
-const a2 = pool();
-const b2 = a2.map((x, i) => i).reduce((x, y) => x + y);
-console.log(b2);
-
-pool(a1);
-pool(a2);
-
-const a3 = pool();
-const b3 = a3.map((x, i) => i).reduce((x, y) => x + y);
-console.log(b3);
-
-pool(a3);
+}
